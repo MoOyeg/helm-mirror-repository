@@ -1,0 +1,13 @@
+# Mapping Structure
+# Helm_Repo_Name Helm_Repo_URL Mirror_Repo_Name Comma_Seperated_List_Of_Charts_if_Specific_Charts(Optional)
+# Examples
+#
+# Mirror Everything chart in https://charts.bitnami.com/bitnami into localhost:5000/helm
+# bitnami-example https://charts.bitnami.com/bitnami localhost:5000/helm
+#
+# Mirror only the wordpress-intel and fluentd chart from https://charts.bitnami.com/bitnami into localhost:5000/helm
+# bitnami-example https://charts.bitnami.com/bitnami localhost:5000/helm wordpress-intel,fluentd
+
+
+
+# Enter values above line
